@@ -23,7 +23,7 @@ def main():
     run = RUN_DICT[cfg.MODEL.TASK]
     if cfg.NUM_GPUS > 1:
         torch.multiprocessing.spawn(
-            mpu.run_local,
+            mpu.run,
             nprocs=cfg.NUM_GPUS,
             args=(
                 cfg.NUM_GPUS,

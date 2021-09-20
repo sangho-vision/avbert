@@ -1,0 +1,14 @@
+# python >= 3.7.6
+# PyTorch 1.6.0, torchvision 0.7.0, torchaudio 0.6.0
+tensorboard
+simplejson
+# fvcore
+git+https://github.com/facebookresearch/fvcore
+# PyAV
+# FFMpeg 4.3.1
+av
+wget
+rarfile
+scipy
+opencv-python
+scikit-learn
